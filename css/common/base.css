@@ -1,6 +1,7 @@
 :root {
   --text-color: #000000;
   --background-color: #ffffff;
+  --background-main-color: #FFF8F3;
 }
 
 html {
@@ -10,11 +11,12 @@ html {
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: "Cera Pro", sans-serif;
-  font-size: 16px;
+  font-family: "Comfortaa", sans-serif;
+  /* font-family: "Yeseva One", serif; */
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.14;
   letter-spacing: -0.32px;
 }
 
@@ -44,33 +46,40 @@ a:-webkit-any-link {
 
 /* Mobile devices */
 .container {
-  min-width: 320px;
-  max-width: 360px;
-  margin: 0 auto;
+   margin: 0 auto;
   padding: 0 10px;
   outline: 1px solid red;
+}
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
 }
 
 /* Tablet devices */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
     padding: 0 64px;
   }
 }
-
-/* Tablet devices */
 @media screen and (min-width: 1000px) {
   .container {
-    max-width: 1000px;
+    width: 1000px;
     padding: 0 20px;
   }
 }
 
+
 /* Desktop devices */
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1440px;
+    width: 1440px;
     padding: 0 140px;
   }
 }

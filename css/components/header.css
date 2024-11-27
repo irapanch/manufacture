@@ -1,0 +1,63 @@
+/* --- mobile 320-767 --- */
+header {
+  background-color: var(--background-main-color);
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.5;
+  padding-top: 4px;
+}
+.logo {
+  display: block;
+  width: 71px;
+}
+.menu__list {
+  display: none;
+  text-transform: uppercase;
+}
+nav {
+}
+.phone-link {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  justify-content: center;
+}
+.phone-icon {
+  width: 14px;
+  height: 14px;
+}
+
+
+/* --- tablet 768 - 1000 --- */
+@media screen and (min-width: 768px) {
+  .menu__list {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+  }
+  .header-mobile-menu-btn {
+    display: none;
+  }
+}
+
+/* --- tablet 1000 - 1339 --- */
+@media screen and (min-width: 1000px) {
+  .menu__list {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .phone-link {
+    font-size: 14px;
+  }
+  .phone-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* --- desctop  1440 --- */
+@media screen and (min-width: 1440px) {
+}

@@ -26,8 +26,8 @@
             height="72"
           />
         </a>
-        <nav class=" header__menu">
-          <ul class=" menu__list menu__list-mobile">
+        <nav class="header__menu">
+          <ul class="menu__list menu__list-mobile">
             <li class="menu__list-link"><a href="#about">Про нас</a></li>
             <li class="menu__list-link"><a href="#catalog">Каталог</a></li>
             <li class="menu__list-link"><a href="#team">Команда</a></li>
@@ -59,24 +59,29 @@
     </header>
     <main>
       <!--  ============ hero-section ======== -->
-      <section class="hero-section">
-        <div class="hero-container container">
-          <h1>Створіть атмосферу затишку та гармонії!</h1>
-          <p>
-            Створіть особливу атмосферу у своєму домі з нашою екологічно чистою
-            та якісною продукцією зі 100% натуральної соєвого воску.
-          </p>
-          <button type="button">Купити</button>
-          <div class="hero-img-container">
-            <img
-              class="hero-image"
-              srcset="./images/hero/ellipse-6@2x.webp 2x"
-              src="./images/hero/ellipse-6.webp"
-              alt="Small candle"
-              width="198"
-              height="260"
-            />
+      <section class="hero__section">
+        <div class="hero__inner container">
+          <div class="hero__content">
+            <h1 class="hero__title">Створіть атмосферу затишку та гармонії!</h1>
+            <p class="hero__subtitle">
+              Створіть особливу атмосферу у своєму домі з нашою екологічно
+              чистою та якісною продукцією зі 100% натуральної соєвого воску.
+            </p>
+            <button type="button" class="btn hero__button ">Купити</button>
           </div>
+          <picture class="hero__img">
+            <source srcset="./images/hero/hero-l.webp, ./images/hero/hero-l@2x.webp 2x" media="(min-width:768px)">
+            <source srcset="./images/hero/hero-m.webp, ./images/hero/hero-m@2x.webp 2x" media="(min-width:480px)">
+            <img
+            class="hero__image"
+            srcset="./images/hero/hero-s@2x.webp 2x"
+            src="./images/hero/hero-s.webp"
+            alt="Small candle"
+            width="1069"
+            height="670"
+          />
+          </picture>
+          
         </div>
       </section>
       <!-- ======= about-section ============ -->
@@ -639,20 +644,7 @@
         </div>
       </div>
     </footer>
-    <!-- ========== mobile-menu =========== -->
-<!--     
-      <nav>
-        <ul class="menu__list-mobile">
-          <li class="menu__list-link"><a href="#about">Про нас</a></li>
-          <li class="menu__list-link"><a href="#catalog">Каталог</a></li>
-          <li class="menu__list-link"><a href="#team">Команда</a></li>
-          <li class="menu__list-link"><a href="#reviews">Відгуки</a></li>
-          <li class="menu__list-link"><a href="#courses">Курси</a></li>
-          <li class="menu__list-link"><a href="#contacts">Контакти</a></li>
-        </ul>
-      </nav> -->
    
-
     <script src="js/mobile-menu.js"></script>
   </body>
 </html>

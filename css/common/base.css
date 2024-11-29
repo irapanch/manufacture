@@ -3,7 +3,8 @@
   --background-color: #ffffff;
   --background-main-color: #FFF8F3;
   --accent-color: #7B6152;
-
+  --button-main-color: #FFBD59;
+  --button-text-color-black: #272727;
 }
 
 html {
@@ -14,7 +15,6 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: "Comfortaa", sans-serif;
-  /* font-family: "Yeseva One", serif; */
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -45,7 +45,16 @@ a:-webkit-any-link {
   clip-path: inset(50%);
   margin: -1px;
 }
+main {
+  background-color: var(--background-main-color) ;
+  overflow-x: clip;
+}
 
+.btn {
+background-color: var(--button-main-color);
+color: var(--button-text-color-black);
+font-weight: 600;
+}
 /* Mobile devices */
 .container {
    margin: 0 auto;

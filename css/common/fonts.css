@@ -13,3 +13,12 @@
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "Comfortaa";
+    src: url(../../fonts/Comfortaa-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+

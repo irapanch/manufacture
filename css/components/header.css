@@ -29,6 +29,7 @@ header {
 @media screen and (max-width: 767px){
   .header__menu {
     position: absolute;
+    z-index: 1;
     top: 0;
     right: 0;
     transform: translateY(-110%);

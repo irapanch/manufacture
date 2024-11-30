@@ -1,0 +1,42 @@
+.about__section {
+  background-color: var(--background-accent-color);
+}
+
+.about__inner {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 29px;
+  color: var(--white-text-color);
+
+  display: flex;
+  gap: 25px;
+}
+.about__content {
+  width: 234px;
+}
+.about__title {
+  font-family: "Yeseva One";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.about__text {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+.additional {
+    display: none;
+}
+.additional-text {
+    display: none;
+}
+
+.about__list{
+    padding-top: 14px;
+    width: 80px;
+    height: 80px;
+}
+.about__mask{
+    position: absolute;
+
+}

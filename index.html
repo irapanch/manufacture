@@ -85,34 +85,61 @@
         </div>
       </section>
       <!-- ======= about-section ============ -->
-      <section class="about-section">
-        <div class="container">
-          <div>
-            <h2>Про нас</h2>
-            <p>
+      <section  id="about" class="about__section">
+        <div class="container about__inner">
+          <div class="about__content">
+            <h2 class="about__title">Про нас</h2>
+            <p class="about__text">
               Богдан творець бренду який завжди зацікавлений у виготовленні
               різноманітних речей вдома. Він регулярно експериментував з різними
               матеріалами та інструментами, спробувавши свої сили у багатьох
               галузях, включаючи виготовлення свічок.
             </p>
-            <p>
+            <p class="about__text">
               Соєвий віск виготовляють із соєвих бобів, що зрощуються в Данії, і
               цей вид воску є екологічно чистим та безпечним для здоров'я.
             </p>
           </div>
-          <div class="about-img-container">
-            <img
-              class="about-image"
-              srcset="./images/about/rectangle29@2x.webp 2x"
-              src="./images/about/rectangle29.webp"
+          <ul class="about__list">
+            <li class="about__item">
+              <img
+              class="about__item-image "
+              srcset="./images/about/about-1@2x.webp 2x"
+              src="./images/about/about-1.webp"
               alt="Small candle"
               width="215"
               height="220"
             />
-          </div>
-          <div class="about-mask-container">
+            <p class="about__item-description additional-text">Насолоджуйтеся моментом</p>
+            </li>
+           
+            <li class="about__item additional">
+              <img
+              class="about__item-image "
+              srcset="./images/about/about-2@2x.webp 2x"
+              src="./images/about/about-2.webp"
+              alt="Small candle"
+              width="215"
+              height="220"
+            />
+            <p class="about__item-description additional-text">Створіть улюблену атмосферу</p>
+            </li>
+           
+            <li class="about__item additional">
+              <img
+              class="about__item-image"
+              srcset="./images/about/about-3@2x.webp 2x"
+              src="./images/about/about-3.webp"
+              alt="Small candle"
+              width="215"
+              height="220"
+            />
+            <p class="about__item-description additional-text">Виготовлені з любов'ю</p>
+            </li>
+          </ul>
+          <div class="about__mask additional">
             <img
-              class="mask-image"
+              class="about__mask-image"
               src="./images/mask-group.webp"
               alt="Candle icon"
               width="24"
@@ -122,7 +149,7 @@
         </div>
       </section>
       <!-- ========= products-section ======== -->
-      <section class="products-section">
+      <section id="catalog" class="products-section">
         <div class="container">
           <h2>Наші товари</h2>
           <p>
@@ -311,7 +338,7 @@
         </div>
       </section>
       <!-- ========== courses-section ========== -->
-      <section class="courses-section">
+      <section id="courses" class="courses-section">
         <div class="container">
           <h2>Наші курси</h2>
           <p>
@@ -348,7 +375,7 @@
         </div>
       </section>
       <!--  ======== lecturers-section ========== -->
-      <section class="lecturers-section">
+      <section id="team" class="lecturers-section">
         <div class="container">
           <h2>Наші викладачі</h2>
           <p>
@@ -388,7 +415,7 @@
         </div>
       </section>
       <!-- ========== reviews-section =========== -->
-      <section class="reviews-section">
+      <section  id="reviews" class="reviews-section">
         <div class="container">
           <h2>Відгуки від клієнтів</h2>
           <p>
@@ -601,7 +628,7 @@
             <li class="menu__list-link"><a href="#contacts">Контакти</a></li>
           </ul>
         </nav>
-        <div class="footer__contacts">
+        <div id="contacts" class="footer__contacts">
           <a class="phone-link" href="tel:+380672222222">
             <span class="phone">+38 067 222 2222</span>
           </a>

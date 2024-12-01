@@ -25,18 +25,162 @@
   margin-bottom: 10px;
 }
 .additional {
-    display: none;
+  display: none;
 }
-.additional-text {
-    display: none;
+.about__item-description {
+  display: none;
 }
 
-.about__list{
-    padding-top: 14px;
-    width: 80px;
-    height: 80px;
+.about__list {
+  padding-top: 14px;
+  width: 80px;
+  height: 80px;
 }
-.about__mask{
+.about__item-image {
+  width: 80px;
+  height: 80px;
+}
+.about__mask {
+  position: absolute;
+  right: 75px;
+  bottom: 9px;
+}
+
+@media screen and (min-width: 480px) {
+  .about__inner {
+    padding-bottom: 40px;
+  }
+  .about__content {
+    width: 172px;
+    padding-top: 25px;
+  }
+  .about__title {
+    margin-bottom: 20px;
+  }
+  .about__text {
+    font-size: 10px;
+  }
+  .about__list {
     position: absolute;
+    top: 69px;
+    left: 200px;
+    width: 310px;
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    padding: 0;
+  }
+  .additional {
+    display: block;
+  }
+  .middle {
+    width: 140px;
+    height: 140px;
+  }
+  .about__mask {
+    right: 268px;
+    bottom: 42px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .about__inner {
+    padding-bottom: 111px;
+  }
+  .about__content {
+    width: 200px;
+    padding-top: 27px;
+  }
+  .about__list {
+    top: 50px;
+    left: 313px;
+    width: 452px;
+    height: 210px;
+    gap: 10px;
+  }
+  .align {
+    padding-bottom: 20px;
+  }
+
+  .about__item-image {
+    width: 120px;
+    height: 120px;
+  }
+  .middle {
+    width: 191px;
+    height: 195px;
+  }
+  .about__item-description {
+    display: block;
+    margin-top: 6px;
+    font-size: 6px;
+  }
+  .about__mask {
+    right: 454px;
+    bottom: 78px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about__inner {
+    padding-bottom: 120px;
+  }
+  .about__content {
+    width: 300px;
+    padding-top: 103px;
+  }
+  .about__title {
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
+  .about__text {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .about__list {
+    left: 340px;
+    width: 822px;
+    height: 378px;
+    gap: 21px;
+  }
+  .align {
+    padding-bottom: 65px;
+  }
+
+  .about__item-image {
+    width: 215px;
+    height: 220px;
+  }
+  .middle {
+    width: 350px;
+    height: 355px;
+  }
+  .about__item-description {
+
+    margin-top: 10px;
+    font-size: 11px;
+  }
+  .about__mask {
+    right: 658px;
+    bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__inner {
+    padding-bottom: 171px;
+  }
+  .about__content {
+    width: 370px;
+    
+  }
+  .about__list {
+    left: 621px;
+    gap: 20px;
+  }
+  .about__mask {
+    right: 907px;
+   
+  }
 }

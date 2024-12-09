@@ -1,11 +1,11 @@
 :root {
   --text-color: #000000;
-  --white-text-color: #FAFAFA;
+  --white-text-color: #fafafa;
   --background-color: #ffffff;
-  --background-main-color: #FFF8F3;
-  --background-accent-color: #A5978E;
-  --accent-color: #7B6152;
-  --button-main-color: #FFBD59;
+  --background-main-color: #fff8f3;
+  --background-accent-color: #a5978e;
+  --accent-color: #7b6152;
+  --button-main-color: #ffbd59;
   --button-text-color-black: #272727;
 }
 
@@ -48,18 +48,53 @@ a:-webkit-any-link {
   margin: -1px;
 }
 main {
-  background-color: var(--background-main-color) ;
+  background-color: var(--background-main-color);
   overflow-x: clip;
 }
 
 .btn {
-background-color: var(--button-main-color);
-color: var(--button-text-color-black);
-font-weight: 600;
+  background-color: var(--button-main-color);
+  color: var(--button-text-color-black);
+  font-weight: 600;
+}
+.section__inner{
+  display: flex;
+  flex-direction: column;
+}
+.section__desc{
+  width: 235px;
+}
+.section__content{
+  position: relative;
+}
+.mask-container {
+  position: absolute;
+} 
+.mask-container > img {
+  width: auto;
+}
+.mask-container-line::after  {
+  content: '';
+  position: absolute;
+  left: 23px;
+  bottom: 12px;
+  background-color: var(--accent-color);
+width: 7000%;
+  height: 1px;
+} 
+.title{
+  font-family: "Yeseva One";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.text-white{
+  background-color: var(--background-accent-color);
+  color: var(--white-text-color);
 }
 /* Mobile devices */
 .container {
-   margin: 0 auto;
+  margin: 0 auto;
   padding: 0 10px;
   outline: 1px solid red;
 }
@@ -72,6 +107,16 @@ font-weight: 600;
   .container {
     width: 480px;
   }
+  .title{
+    margin-bottom: 20px;
+  }
+  .section__inner{
+    display: flex;
+    flex-direction: row;
+  }
+  .section__desc{
+    width: 300px;
+  }
 }
 
 /* Tablet devices */
@@ -80,19 +125,36 @@ font-weight: 600;
     width: 768px;
     padding: 0 64px;
   }
+  .title{
+    font-size: 40px;
+  }
+  .section__inner{
+    flex-direction: row;
+  }
+  .section__desc{
+    width: 200px;
+  }
 }
 @media screen and (min-width: 1000px) {
   .container {
     width: 1000px;
     padding: 0 20px;
   }
+  .title{
+    margin-bottom: 15px;
+  }
+  .section__desc{
+    width: 300px;
+  }
 }
-
 
 /* Desktop devices */
 @media screen and (min-width: 1440px) {
   .container {
     width: 1440px;
     padding: 0 140px;
+  }
+  .section__desc{
+    width: 370px;
   }
 }

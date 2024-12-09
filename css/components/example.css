@@ -1,0 +1,22 @@
+/* 320-360-340(10) 
+  480-460(10)
+   768-640(64) 
+    1000-960(20) 
+     1440-1160(140) */
+
+
+/* --- mobile 320-767 --- */
+@media screen and (min-width: 480px) {
+    
+  }
+/* --- tablet 768 - 999 --- */
+@media screen and (min-width: 768px) {
+}
+
+/* --- tablet 1000 - 1339 --- */
+@media screen and (min-width: 1000px) {
+}
+
+/* --- desktop  1440 --- */
+@media screen and (min-width: 1440px) {
+}

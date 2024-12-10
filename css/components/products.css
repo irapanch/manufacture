@@ -1,0 +1,96 @@
+.products__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px 7px;
+  margin: 30px auto 45px auto;
+}
+
+.products__item {
+  width: 150px;
+  min-height: 285px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product__item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 6px;
+  gap: 8px;
+  text-align: center;
+}
+
+.product__item-subtitle {
+  font-family: "Yeseva One";
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.product__btn {
+  width: 78px;
+  height: 30px;
+  font-size: 8px;
+  margin: 0 auto;
+}
+.product__mask {
+  left: 0px;
+  bottom: -10px;
+}
+
+@media screen and (min-width: 480px) {
+  .product__item-content {
+    font-size: 8px;
+  }
+
+  .products__list {
+    gap: 25px 16px;
+  }
+  .products__item {
+    width: 200px;
+    min-height: 345px;
+  }
+  .product__item-subtitle {
+    font-size: 12px;
+  }
+  .product__btn {
+    width: 104px;
+    height: 36px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .product__descr{
+        margin: 0;
+    
+    }
+    .product__title {
+        padding-top: 0;
+    }
+    .products__list {
+        margin: 0 auto 45px auto;
+      }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .products__list {
+        gap: 67px;
+      }
+    .products__item {
+        width: 290px;
+        min-height: 500px;
+      }
+}
+
+@media screen and (min-width: 1440px) {
+    .products__list {
+        gap:  50px 93px;
+      }
+}
+

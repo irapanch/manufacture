@@ -12,7 +12,9 @@
 .about__content {
   width: 234px;
 }
-
+.about__title{
+  padding-top: 0;
+}
 .about__text {
   font-size: 8px;
   margin-bottom: 10px;

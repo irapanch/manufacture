@@ -7,6 +7,7 @@
   --accent-color: #7b6152;
   --button-main-color: #ffbd59;
   --button-text-color-black: #272727;
+  --label-color: #B3B3B3;
 }
 
 html {
@@ -121,6 +122,7 @@ main {
     width: 480px;
   }
   .title {
+
     margin-bottom: 20px;
   }
   .text-description {
@@ -139,9 +141,7 @@ main {
     width: 768px;
     padding: 0 64px;
   }
-  .title {
-    font-size: 40px;
-  }
+  
   .section__inner {
     flex-direction: row;
    align-items: normal;
@@ -160,6 +160,9 @@ main {
   .container {
     width: 1000px;
     padding: 0 20px;
+  }
+  .title {
+    font-size: 40px;
   }
   .section__inner {
      padding-top: 150px;

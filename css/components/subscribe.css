@@ -1,0 +1,129 @@
+.subscribe__inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.subscribe__wrapper {
+  width: 100%;
+  background: var(--background-color);
+  padding: 30px 20px 30px 22px;
+  box-shadow: 0px 4px 11px 0px rgba(199, 175, 165, 0.3);
+  margin: auto;
+}
+.subscribe__title {
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+.subscribe__form {
+  padding-top: 10px;
+}
+.form-label {
+  color: var(--label-color);
+  font-size: 8px;
+  font-weight: 400;
+  padding-left: 7px;
+}
+.form-input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 17px;
+}
+.btn-form {
+  font-size: 8px;
+  width: 85px;
+  height: 40px;
+  margin-top: 30px;
+}
+.form-image {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe__wrapper {
+    width: 440px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe__inner {
+    padding-top: 150px;
+  }
+  .subscribe__wrapper-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .subscribe__wrapper {
+   margin-top: 4px;
+   margin-bottom: 4px;
+  }
+  .btn-form {
+    font-size: 14px;
+    width: 170px;
+    height: 50px;
+  }
+  .form-image {
+    display: block;
+    width: 187px;
+  }
+}
+@media screen and (min-width: 1000px) {
+    .subscribe__wrapper-form {
+     
+        gap: 30px;
+      }
+    .subscribe__wrapper {
+        width: 592px;
+        margin: 0;
+        padding-top: 75px;
+        padding-bottom: 77px;
+        margin-top: 46px;
+        margin-bottom: 24px;
+      }
+      .subscribe__title {
+       
+        margin-bottom: 50px;
+      }
+      .form-label {
+        font-size: 14px;
+      }
+      .form-input {
+   
+        margin-bottom: 23px;
+      }
+      .btn-form {
+        margin-top: 40px;
+      }
+    .form-image {
+        
+        width: 335px;
+        height: 510px;
+      }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .subscribe__wrapper-form {
+        
+          gap: 50px;
+        }
+        .subscribe__wrapper {
+        width: 663px;
+        padding: 75px 42px 67px 42px;
+        margin-top: 112px;
+        margin-bottom: 52px;
+      }
+      .subscribe__form {
+        padding-top: 23px;
+    }
+      .form-input {
+   
+        margin-bottom: 24px;
+      }
+    .form-image {
+        
+        width: 448px;
+        height: 604px;
+      }
+}

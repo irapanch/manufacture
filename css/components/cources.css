@@ -29,7 +29,7 @@
 
   background: var(--background-accent-color);
   padding: 15px;
-  left: 0;
+  left: -1px;
   top: 156px;
   min-width: 190px;
 }
@@ -37,7 +37,7 @@
   position: absolute;
   background: var(--background-accent-color);
   padding: 7px 10px;
-  left: 0;
+  left: -1px;
   top: 216px;
 }
 .cource__item-times span {
@@ -85,7 +85,6 @@
   }
   .cource__item-title {
     font-size: 9px;
-    left: 0;
     top: 123px;
     min-width: auto;
   }

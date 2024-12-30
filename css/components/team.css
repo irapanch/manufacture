@@ -1,0 +1,39 @@
+.team-text{
+    font-size: 10px;
+}
+.team-list {
+  padding-left: 17px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.team-item {
+  position: relative;
+}
+.team__image {
+  max-width: 210px;
+}
+.team-person {
+  position: absolute;
+  right: 2px;
+  bottom: 5px;
+  width: 155px;
+  height: 70px;
+  background: var(--accent-color);
+  padding: 14px 8px 0 8px;
+}
+.team-person h3 {
+  text-align: center;
+  font-family: "Yeseva One";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.team-person p {
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 10px;
+  font-weight: 400;
+}

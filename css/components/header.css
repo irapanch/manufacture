@@ -32,12 +32,13 @@ header {
     z-index: 1;
     top: 0;
     right: 0;
-    transform: translateY(-110%);
+    transform: translateY(-114%);
     transition: transform .5s ease;
   }
   .menu__list-mobile {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     min-width: 153px;
     padding: 25px 45px;
@@ -48,6 +49,24 @@ header {
   }
   .header__menu.menu--open{
     transform: translateY(0%);
+  }
+  .header-menu-btn-close{
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    background-color: var(--accent-color);
+    color: var(--background-main-color);
+    width: 172px;
+    height: 45px;
+   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  
+  }
+  .header-menu-btn-close .content {
+   cursor: pointer;
   }
   
 }

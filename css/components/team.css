@@ -1,5 +1,5 @@
-.team-text{
-    font-size: 10px;
+.team-text {
+  font-size: 10px;
 }
 .team-list {
   padding-left: 17px;
@@ -11,15 +11,17 @@
 }
 .team-item {
   position: relative;
+  width: 210px;
 }
 .team__image {
   max-width: 210px;
+  height: 100%;
 }
 .team-person {
   position: absolute;
-  right: 2px;
+  right: -86px;
   bottom: 5px;
-  width: 155px;
+  width: 150px;
   height: 70px;
   background: var(--accent-color);
   padding: 14px 8px 0 8px;
@@ -36,4 +38,76 @@
   font-family: Comfortaa;
   font-size: 10px;
   font-weight: 400;
+}
+
+@media screen and (min-width: 480px) {
+  .team-list {
+    padding-left: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 100px;
+  }
+  .team-item {
+    width: 145px;
+  }
+  .team-person {
+    right: -67px;
+    width: 108px;
+    height: 50px;
+    padding: 9px 6px 0 6px;
+  }
+  .team-person h3 {
+    font-size: 8px;
+  }
+
+  .team-person p {
+    font-size: 7px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-section__inner {
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 50px;
+    justify-content: space-between;
+  }
+  .team-section__desc {
+    margin: 0;
+  }
+  .team-list {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team-list {
+    gap: 30px 120px;
+  }
+ 
+  .team-item {
+    width: 215px;
+  }
+  .team-person{
+    width: 160px;
+    height: 70px;
+  }
+  .team-person h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .team-person p {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .team-section__inner{
+    padding-top: 60px;
+  }
+  .team-list {
+    gap: 80px 175px;
+    padding-bottom: 80px;
+  }
 }

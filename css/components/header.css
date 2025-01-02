@@ -84,6 +84,10 @@ header {
   .header-mobile-menu-btn {
     display: none;
   }
+  .header-menu-btn-close{
+    display: none;
+  }
+  
 }
 
 /* --- tablet 1000 - 1339 --- */

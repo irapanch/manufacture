@@ -1,0 +1,112 @@
+.process-section__inner{
+    padding-bottom: 30px;
+}
+
+.process__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 100px;
+  gap: 20px 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  counter-reset: number;
+}
+
+.process__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  font-family: Comfortaa;
+  font-size: 6px;
+}
+.process__item::before {
+  counter-increment: number;
+  content: "0" counter(number);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--numbers-color);
+  font-family: "Yeseva One";
+  font-size: 12px;
+}
+.process__item:nth-child(n + 10)::before {
+  content: counter(number);
+}
+
+.process__item.process__item-even::before {
+  left: auto;
+  right: 0;
+}
+
+.process-description {
+  padding-bottom: 15px;
+}
+.process__item > img {
+  height: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .process__list {
+    grid-auto-rows: 150px;
+    gap: 25px 40px;
+    margin-bottom: 35px;
+  }
+  .process__item {
+    gap: 20px;
+    font-size: 8px;
+  }
+  .process__item::before {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .process-section__desc{
+        margin-top: 0;
+    }
+    .process-section__desc>h2{
+        padding-top: 0;
+    }
+    .process__list {
+        gap: 25px 35px;
+       margin-top: 0;
+       margin-bottom: 30px;
+      }
+}
+
+@media screen and (min-width: 1000px) {
+    .process__text-description{
+        font-size: 14px;
+        width: 290px;
+    }
+    .process__list {
+        grid-auto-rows: 225px;
+        gap: 35px 35px;
+       
+      }
+      .process__item {
+        gap: 30px;
+        font-size: 14px;
+      }
+      .process__item::before {
+        font-size: 30px;
+      }
+}
+@media screen and (min-width: 1440px) {
+    .process-section__desc{
+        margin: 0;
+    }
+    .process__content{
+        width: 766px;
+    }
+    .process__list {
+        grid-auto-rows: 220px;
+        gap: 70px 25px ;
+        margin-bottom: 50px;
+      }
+      .process__item {
+        gap: 50px;
+        
+      }
+}

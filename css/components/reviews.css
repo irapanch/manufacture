@@ -1,0 +1,66 @@
+.reviews-section{
+    position: relative;
+}
+
+.reviews-section .section__desc{
+    margin: 0;
+}
+
+.swiper-reviews{
+    width: 760px;
+    padding-bottom: 105px;
+    position: relative;
+    overflow: hidden;
+}
+
+.reviews-list{
+    display: flex;
+    gap: 20px;
+}
+
+.reviews__social{
+    display: block;
+    margin-bottom: 12px;
+}
+.social-icon{
+    width: 25px;
+    height: 25px;
+   
+}
+.reviews__wrap> h3 {
+    font-family: "Yeseva One";
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.reviews__wrap> p {
+    font-family: Comfortaa;
+font-size: 14px;
+    margin-bottom: 63px;
+}
+.reviews__btn{
+    padding: 20px 35px;
+    margin-left: auto;
+}
+
+.reviews-section
+.mask-container{
+bottom: -13px;
+}
+.reviews-section
+.swiper-pagination{
+bottom: 50px;
+}
+
+.swiper-pagination-bullet{
+    background-color: #BEA495;
+    width: 53px;
+    height: 4px;
+    border-radius: 0;
+    opacity: 1;
+   
+}
+.swiper-pagination-bullet-active{
+    background-color: #7B6152;
+    
+   
+}

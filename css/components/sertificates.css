@@ -1,0 +1,35 @@
+
+.sertificates-section{
+    position: relative;
+}
+.sertificates-section__inner{
+    padding-right: 0;
+    justify-content:flex-start;
+    gap: 30px;
+}
+.sertificates-section .section__desc{
+    margin: 0;
+}
+
+.sertificates__desc{
+    min-width: 370px;
+}
+.swiper-sertificates{
+    width: 1167px;
+    padding-bottom: 105px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-img{
+    width: 375px;
+}
+
+.sertificates-section
+.mask-container{
+bottom: -13px;
+}
+
+.sertificates-section .swiper-pagination{
+    bottom: -13px;
+}

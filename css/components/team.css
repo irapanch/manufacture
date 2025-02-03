@@ -79,6 +79,10 @@
     padding: 0;
     padding-bottom: 50px;
   }
+  .team-person {
+    right: -95px;
+   
+  }
 }
 
 @media screen and (min-width: 1000px) {

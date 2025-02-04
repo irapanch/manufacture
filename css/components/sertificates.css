@@ -14,22 +14,32 @@
 .sertificates__desc{
     min-width: 370px;
 }
+.sertificates-section
+.mask-container{
+bottom: -45px;
+}
 .swiper-sertificates{
-    width: 1167px;
-    padding-bottom: 105px;
+    width: 1200px;
+    padding-bottom: 60px;
     position: relative;
-    overflow: hidden;
+    overflow: visible; 
+    clip-path: inset(0 0 0 0); 
 }
 
 .swiper-img{
     width: 375px;
+    object-fit: cover;
 }
 
-.sertificates-section
-.mask-container{
-bottom: -13px;
-}
 
+.sertificates-section .swiper-slide{
+    flex-shrink: 1;
+}
+.swiper-sertificates>.swiper-wrapper{
+    /* transition-duration: 0ms;
+    transition-delay: 0ms;
+    transform: translate3d(-0.5px, 0px, 0px); */
+}
 .sertificates-section .swiper-pagination{
-    bottom: -13px;
+    text-align: left;
 }

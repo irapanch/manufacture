@@ -19,16 +19,16 @@ const swiperSertificates = new Swiper(".swiper-sertificates", {
   breakpoints: {
     480: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 25,
       centeredSlides: false,
       watchOverflow: true,
       loop: true,
     },
    768: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 15,
       centeredSlides: false,
-      watchOverflow: true,
+      // watchOverflow: true,
       loop: true,
     },
   },

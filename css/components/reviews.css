@@ -126,6 +126,7 @@
 @media screen and (min-width: 768px) {
   .reviews-section .section__inner {
     align-items: normal;
+    gap: 10px;
 }
   .reviews__desc {
     min-width: 200px;

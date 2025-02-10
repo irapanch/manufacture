@@ -1,66 +1,239 @@
-.reviews-section{
-    position: relative;
+.reviews-section {
+  position: relative;
 }
 
-.reviews-section .section__desc{
-    margin: 0;
+.reviews-section .section__inner {
+  align-items: baseline;
 }
 
-.swiper-reviews{
-    width: 760px;
-    padding-bottom: 105px;
-    position: relative;
-    overflow: hidden;
+.reviews__desc {
+  width: 195px;
+  margin-bottom: 30px;
+}
+.swiper__section {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
-.reviews-list{
-    display: flex;
-    gap: 20px;
+.swiper-reviews {
+  width: 250px;
+  padding-bottom: 105px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
 }
 
-.reviews__social{
-    display: block;
-    margin-bottom: 12px;
+.reviews-list {
+  max-width: 250px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
 }
-.social-icon{
-    width: 25px;
-    height: 25px;
+.reviews__item-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.reviews__wrap {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.reviews__social {
+  display: block;
+  margin-bottom: 10px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+.reviews__wrap > h3 {
+  font-family: "Yeseva One";
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.reviews__wrap > p {
+  font-family: Comfortaa;
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.reviews__btn {
+  padding: 15px 20px;
+  font-size: 8px;
+  
+}
+
+.reviews-section .mask-container {
+  bottom: -13px;
+}
+.reviews-section .swiper-pagination {
+  bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #bea495;
+  width: 28px;
+  height: 4px;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #7b6152;
+}
+
+@media screen and (min-width: 480px) {
+  .reviews__desc {
+    width: 300px;
+   
+  }
+  .swiper-reviews {
+    width: 440px;
+    padding-bottom: 92px;
+   
+  }
+  .reviews-list {
+    max-width: 480px;
+    
+    gap: 10px;
+    flex-direction: row;
+    
+  }
+  .reviews__item-image {
+    width: 200px;
+    height: 200px;
+    
+  }
+  .reviews__wrap {
+    align-items: flex-start;
+    
+}
+.reviews__wrap > p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.reviews__btn {
+  margin-left: auto;
+  
+}
+
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section .section__inner {
+    align-items: normal;
+}
+  .reviews__desc {
+    min-width: 200px;
+   margin: 0;
+}
+.reviews__desc h2 {
+  padding-top: 0;
+}
+
+.swiper__section {
+  width: auto;
+}
+.swiper-reviews {
+  width: 420px;
+  padding-bottom: 110px;
+  
+ 
+}
+.reviews-section .swiper-pagination {
+  bottom: 70px;
+}
+
+/* .reviews-section .mask-container {
+  
+  left: 315px;
+} */
+}
+
+/* --- tablet 1000 - 1339 --- */
+@media screen and (min-width: 1000px) {
+  .reviews__desc {
+    min-width: 300px;
    
 }
-.reviews__wrap> h3 {
-    font-family: "Yeseva One";
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-.reviews__wrap> p {
-    font-family: Comfortaa;
-font-size: 14px;
-    margin-bottom: 63px;
-}
-.reviews__btn{
-    padding: 20px 35px;
-    margin-left: auto;
-}
-
-.reviews-section
-.mask-container{
-bottom: -13px;
-}
-.reviews-section
-.swiper-pagination{
-bottom: 50px;
-}
-
-.swiper-pagination-bullet{
-    background-color: #BEA495;
-    width: 53px;
-    height: 4px;
-    border-radius: 0;
-    opacity: 1;
-   
-}
-.swiper-pagination-bullet-active{
-    background-color: #7B6152;
+  .reviews__desc > p {
+    font-size: 14px;
+  }
+  .swiper-reviews {
+    width: 660px;
+    padding-bottom: 110px;
     
    
+  }
+  .reviews-list {
+    max-width: 660px;
+    
+    gap: 16px;
+    
+    
+  }
+  .reviews__item-image {
+    width: 380px;
+    height: 370px;
+    
+  }
+  .reviews__social {
+    
+    margin-bottom: 12px;
+}
+  .social-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .reviews__wrap{
+    padding-top: 24px;
+  }
+  .reviews__wrap > h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .reviews__wrap > p {
+    font-size: 14px;
+    margin-bottom: 58px;
+  }
+  .reviews__btn {
+    padding: 20px 35px;
+    font-size: 14px;
+  }
+  .swiper-pagination-bullet {
+    width: 56px;
+  }
+  .reviews-section .swiper-pagination {
+    bottom: 80px;
+}
+}
+
+/* --- desktop  1440 --- */
+@media screen and (min-width: 1440px) {
+
+  .reviews-section .swiper__section {
+    width: auto;
+}
+  .reviews__desc {
+    min-width: 374px;
+   
+}
+  .swiper-reviews {
+    width: 768px;
+    padding-bottom: 105px;
+    
+  }
+  .reviews-list {
+    max-width: 768px;
+    
+    
+  }
+  .reviews-section .swiper-pagination {
+    bottom: 50px;
+}
+  
 }

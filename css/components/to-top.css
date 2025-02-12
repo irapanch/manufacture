@@ -1,0 +1,44 @@
+.to-top {
+    position: fixed;
+    bottom: 2px;
+    right: 20px;
+    font-size: 17px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+       background-color: var(--background-accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s;
+    z-index: 100;
+  }
+  
+  
+  .to-top:hover {
+    background-color: var(--button-main-color);
+  }
+  
+  .to-top.active {
+    bottom: 20px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .to-top {
+      width: 68px;
+      height: 68px;
+    font-size: 28px;
+      right: 32px;
+    }
+  
+  
+    .to-top.active {
+      bottom: 32px;
+      pointer-events: auto;
+      opacity: 1;
+    }
+  }

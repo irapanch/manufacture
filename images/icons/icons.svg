@@ -139,9 +139,13 @@
 <symbol id="icon-phone"  viewBox="0 0 14 14" >
 <path d="M11.7979 9.64524L8.86982 9.30632L7.4697 10.7064C5.89244 9.90427 4.61044 8.62226 3.80827 7.04501L5.21395 5.63933L4.87503 2.72241H1.81365C1.4914 8.37846 6.14181 13.0289 11.7979 12.7066V9.64524Z" fill="#BEA495"></path>
 </symbol>
-<symbol id="icon-up-arrow" viewBox="0 0 8 10" >
+<symbol id="icon-arrow-down" viewBox="0 0 8 10" >
   <path d="M0.454621 4.99995L1.0728 4.14495L3.54552 7.50495L3.54552 0.199951L4.42863 0.199951L4.42863 7.50495L6.90135 4.14495L7.51953 4.99995L3.98708 9.79995L0.454621 4.99995Z" fill="black"/>
 </symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 16 32" >
+   <path fill="#f6f5ef" style="fill: var(--color1, #f6f5ef)"
+                d="M40 2.144l17.6 13.856-17.6 13.856v-11.456h-40v-4.8h40v-11.456z"></path>
+                </symbol>
 
 
     </defs>

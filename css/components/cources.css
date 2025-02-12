@@ -171,6 +171,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .courses__content{
+    width: 761px;
+  }
     .course__list {
         gap: 101px;
       }

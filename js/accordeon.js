@@ -1,7 +1,7 @@
 const accordeonTitles = document.querySelectorAll('.accordeon-title')
 
 accordeonTitles.forEach( function(accordeonTitle){
-    accordeonTitle.addEventListener('click', function(){
+    accordeonTitle.addEventListener('pointerdown', function(){
         const currentText = accordeonTitle.parentElement.querySelector('.accordeon-item-answers')
 
         accordeonTitle.classList.toggle('accordeon-title--active')

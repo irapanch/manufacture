@@ -39,6 +39,9 @@ Open `index.html` in any browser or open with Live Server.
 ## 🌍 Demo
 The live version is available at: [irapanch.github.io/manufacture](https://irapanch.github.io/manufacture/)
 
+![speed-info](https://github.com/user-attachments/assets/cfbcd17d-2337-4533-8ae5-a16485e2387c)
+
+
 ## 📞 Contact
 - **Author**: [@irapanch](https://github.com/irapanch)
 - **Email**: 3041804428puh@gmail.com 

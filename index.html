@@ -80,18 +80,24 @@
           </div>
           <picture class="hero__img">
             <source
+            type="image/webp"
               srcset="
                 ./images/hero/hero-l.webp,
                 ./images/hero/hero-l@2x.webp 2x
               "
               media="(min-width:768px)"
+              width="1069"
+              height="690"
             />
             <source
+            type="image/webp"
               srcset="
                 ./images/hero/hero-m.webp,
                 ./images/hero/hero-m@2x.webp 2x
               "
               media="(min-width:480px)"
+              width="309"
+              height="309"
             />
             <img
               class="hero__image"
@@ -101,8 +107,8 @@
             "
               src="./images/hero/hero-s.webp"
               alt="Small candle"
-              width="1069"
-              height="690"
+              width="155"
+              height="180"
             />
           </picture>
         </div>
@@ -948,13 +954,13 @@
               <h2 class="title subscribe__title">Підпишись на наші акції</h2>
 
               <form action="" class="subscribe__form">
-                <label class="form-label" for="name">
+                <label class="form-label"  for="name-input">
                   Ім`я
-                  <input name="name" class="form-input" type="text" />
+                  <input id="name-input" name="name" class="form-input" type="text" autocomplete="name"/>
                 </label>
-                <label class="form-label" for="email">
+                <label class="form-label" for="email-input">
                   Е-mail
-                  <input name="email" class="form-input" type="text" />
+                  <input id="email-input" name="email" class="form-input" type="email" autocomplete="email" />
                 </label>
                 <button class="btn btn-form" type="submit">Підписатись</button>
               </form>

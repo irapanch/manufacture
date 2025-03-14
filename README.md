@@ -6,6 +6,9 @@
 ## 🚀 About the Project
 Manufacture is a responsive landing page for a manufacturing company. The project is built using HTML, CSS, and JavaScript to create a user-friendly, aesthetically pleasing, and functional website.
 
+### Source Layout  
+The source layout can be accessed through [this link](https://surl.li/hupget). 
+
 ## 🔧 Technologies
 
 The project is developed using:

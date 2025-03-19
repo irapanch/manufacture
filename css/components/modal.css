@@ -1,0 +1,33 @@
+.modal-info {
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background: #312c10;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 32px;
+}
+.modal-wrapper {
+    padding-top: 40px;
+}
+.modal-contacts{
+    display: flex;
+    gap: 25px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.contact-icon {
+  fill: #f6f5ef;
+}

@@ -31,7 +31,7 @@
             height="72"
           />
         </a>
-        <nav class="header__menu">
+        <nav class="header__menu" id="mobile-menu">
           <ul class="menu__list menu__list-mobile">
             <li class="menu__list-link"><a href="#about">Про нас</a></li>
             <li class="menu__list-link"><a href="#catalog">Каталог</a></li>
@@ -76,7 +76,7 @@
               Створіть особливу атмосферу у своєму домі з нашою екологічно
               чистою та якісною продукцією зі 100% натуральної соєвого воску.
             </p>
-            <button type="button" class="btn hero__button">Купити</button>
+            <button  type="button" class="btn hero__button js-open-modal">Купити</button>
           </div>
           <picture class="hero__img">
             <source
@@ -213,7 +213,7 @@
                   </p>
                 </div>
 
-                <button class="btn product__btn" type="button">Купити</button>
+                <button  class="btn product__btn js-open-modal" type="button">Купити</button>
               </li>
               <li class="products__item">
                 <div class="product__item-content">
@@ -233,7 +233,7 @@
                   </p>
                 </div>
 
-                <button class="btn product__btn" type="button">Купити</button>
+                <button class="btn product__btn js-open-modal" type="button">Купити</button>
               </li>
               <li class="products__item">
                 <div class="product__item-content">
@@ -253,7 +253,7 @@
                   </p>
                 </div>
 
-                <button class="btn product__btn" type="button">Купити</button>
+                <button class="btn product__btn js-open-modal" type="button">Купити</button>
               </li>
               <li class="products__item">
                 <div class="product__item-content">
@@ -273,7 +273,7 @@
                   </p>
                 </div>
 
-                <button class="btn product__btn" type="button">Купити</button>
+                <button class="btn product__btn js-open-modal" type="button">Купити</button>
               </li>
             </ul>
             <div class="mask-container product__mask mask-container-line">
@@ -524,7 +524,7 @@
                 <p class="course__item-text">
                   Будем навчати основам виготовлення свічок з різних матеріалів.
                 </p>
-                <button type="button" class="btn course__btn">Купити</button>
+                <button type="button" class="btn course__btn js-open-modal">Купити</button>
               </article>
               <article class="course__item">
                 <div class="cource__item-box">
@@ -548,7 +548,7 @@
                   Будем вивчати мистецтво ароматерапії та виготовлення свічок з
                   різними ароматами.
                 </p>
-                <button type="button" class="btn course__btn">Купити</button>
+                <button type="button" class="btn course__btn js-open-modal">Купити</button>
               </article>
             </div>
             <div class="mask-container mask-container-line">
@@ -676,7 +676,7 @@
                         дівчина була дуже задоволена подарунком, і я точно
                         замовлю ще свічок від цього сайту!
                       </p>
-                      <button type="button" class="btn reviews__btn">
+                      <button type="button" class="btn reviews__btn js-open-modal">
                         Купити цей товар
                       </button>
                     </div>
@@ -703,7 +703,7 @@
                       <p>
                         Я придбала набір ароматичних свічок, і вони перевершили всі мої очікування! Запахи дуже приємні, не надто різкі, а горять довго та рівномірно. Особливо сподобалася свічка з лавандою – ідеальна для релаксу перед сном. Буду замовляти ще! 
                       </p>
-                      <button type="button" class="btn reviews__btn">
+                      <button type="button" class="btn reviews__btn js-open-modal">
                         Купити цей товар
                       </button>
                     </div>
@@ -730,7 +730,7 @@
                       <p>
                         Замовив свічку з індивідуальним дизайном для дружини на річницю. Дуже сподобалось, що можна було вибрати колір, аромат і навіть персоналізовану гравіровку. Доставка була швидкою, а якість свічки – на найвищому рівні. Дружина у захваті! 
                       </p>
-                      <button type="button" class="btn reviews__btn">
+                      <button type="button" class="btn reviews__btn js-open-modal">
                         Купити цей товар
                       </button>
                     </div>
@@ -757,7 +757,7 @@
                       <p>
                         Давно шукала натуральні свічки без парафіну і знайшла тут ідеальний варіант! Соєві свічки горять значно довше, а їхній аромат наповнює всю кімнату теплом і затишком. Дякую за якісний продукт та уважне ставлення до клієнтів!
                       </p>
-                      <button type="button" class="btn reviews__btn">
+                      <button type="button" class="btn reviews__btn js-open-modal">
                         Купити цей товар
                       </button>
                     </div>
@@ -881,7 +881,8 @@
                     Яблуко і кориця - теплий і затишний аромат, який нагадує про
                     зимові свята і домашність.
                   </li>
-                </ol></div>
+                </ol>
+              </div>
               </li>
               <li class="accordeon-item">
                 <button type="button"   class="accordeon-title">Як довго горять свічки?</button>
@@ -889,6 +890,7 @@
                 <div class="accordeon-answers-wrap">
                 <p>Час горіння свічки залежить від її розміру, матеріалу та умов використання. У середньому парафінові свічки горять 4–8 годин, а соєві – 20–50% довше.</p>
                 </div>
+              </div>
               </li>
               <li class="accordeon-item">
                 <button type="button"   class="accordeon-title">
@@ -953,7 +955,7 @@
             <div class="subscribe__wrapper">
               <h2 class="title subscribe__title">Підпишись на наші акції</h2>
 
-              <form action="" class="subscribe__form">
+              <form class="subscribe__form">
                 <label class="form-label"  for="name-input">
                   Ім`я
                   <input id="name-input" name="name" class="form-input" type="text" autocomplete="name"/>
@@ -962,12 +964,11 @@
                   Е-mail
                   <input id="email-input" name="email" class="form-input" type="email" autocomplete="email" />
                 </label>
-                <button class="btn btn-form" type="submit">Підписатись</button>
+                <button class="btn btn-form js-open-modal" type="submit">Підписатись</button>
               </form>
             </div>
             <div class="form-image">
               <img
-                src=""
                 alt="Candle"
                 srcset="./images/subscribe/image3@2x.webp 2x"
                 src="./images/subscribe/image3.webp"
@@ -1012,14 +1013,14 @@
           <!--  ==== SOCIAL ===== -->
           <ul class="social__list">
             <li class="social__list-link">
-              <a class="" href="https://www.facebook.com">
+              <a  href="https://www.facebook.com">
                 <svg class="social-icon" width="22" height="22">
                   <use href="./images/icons/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li class="social__list-link">
-              <a class="" href="https://www.instagram.com/">
+              <a  href="https://www.instagram.com/">
                 <svg class="social-icon" width="18" height="18">
                   <use href="./images/icons/icons.svg#icon-instagram-1"></use>
                 </svg>
@@ -1027,14 +1028,14 @@
             </li>
 
             <li class="social__list-link">
-              <a class="" href="https://www.linkedin.com">
+              <a  href="https://www.linkedin.com">
                 <svg class="social-icon" width="18" height="18">
                   <use href="./images/icons/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
             <li class="social__list-link">
-              <a class="" href="https://www.youtube.com/">
+              <a href="https://www.youtube.com/">
                 <svg class="social-icon" width="18" height="18">
                   <use href="./images/icons/icons.svg#icon-youtube-1"></use>
                 </svg>
@@ -1045,6 +1046,38 @@
         </div>
       </div>
     </footer>
+    <dialog id="modal" class="modal-info">
+      <button class="close-btn">&times;</button>
+      <div class="modal-wrapper">
+        <p>
+          Проєкт представлений з ознайомчою метою.
+          Для замовлення сайту зв'яжіться з розробником: 
+        </p>
+        <ul class="modal-contacts">
+          <li >
+            <a  href="https://t.me/IraPanchI">
+              <svg class="contact-icon" width="24" height="24">
+                  <use href="./images/icons/icons.svg#icon-telegram"></use>
+              </svg>
+          </a>
+          </li>
+          <li >
+            <a  href="mailto:3041804428puh@gmail.com">
+              <svg class="contact-icon" width="40" height="40">
+                  <use href="./images/icons/icons.svg#icon-email"></use>
+              </svg>
+          </a>
+          </li>
+          <li >
+            <a  href="https://wa.me/380956615381">
+              <svg class="contact-icon" width="24" height="24">
+                  <use href="./images/icons/icons.svg#icon-whatsapp"></use>
+              </svg>
+          </a>
+          </li>
+        </ul>
+      </div>
+  </dialog>
     <a href="#" class="to-top" aria-label="To top button">
       &#8593;
     </a>

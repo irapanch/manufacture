@@ -6,6 +6,9 @@
 ## 🚀 About the Project
 Manufacture is a responsive landing page for a manufacturing company. The project is built using HTML, CSS, and JavaScript to create a user-friendly, aesthetically pleasing, and functional website.
 
+### Source Layout  
+The source layout can be accessed through [this link](https://surl.li/hupget). 
+
 ## 🔧 Technologies
 
 The project is developed using:
@@ -38,6 +41,9 @@ Open `index.html` in any browser or open with Live Server.
 
 ## 🌍 Demo
 The live version is available at: [irapanch.github.io/manufacture](https://irapanch.github.io/manufacture/)
+
+![speed-info](https://github.com/user-attachments/assets/cfbcd17d-2337-4533-8ae5-a16485e2387c)
+
 
 ## 📞 Contact
 - **Author**: [@irapanch](https://github.com/irapanch)
